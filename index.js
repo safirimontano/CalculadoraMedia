@@ -17,13 +17,15 @@ function Buscar() {
 	var nota4 =parseInt(valor4)
 	
 	var valorElemento5 = document.getElementById("nome");
+	var nome1 = valorElemento5.value;
 
 	var Resultado = (nota1+nota2+nota3+nota4) / 4;
 		
 	var elementoMédiaFinal = 	document.getElementById("Resultado")
-	var média= valorElemento5 + "Sua média foi" + Resultado;
+	var média= nome1 + "Sua média foi " + Resultado;
 	elementoMédiaFinal.innerHTML = média;
 	console.log(média)
 } 
+
 
 
