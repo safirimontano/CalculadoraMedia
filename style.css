@@ -1,0 +1,168 @@
+*{
+    margin: 0 ;
+    padding: 0;
+    
+}
+
+.estrutura{
+    background-image: linear-gradient( 135deg, #52E5E7 10%, #130CB7 100%);
+    font-family: sans-serif;
+    height: 1010px
+
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin: 0 auto;
+}
+
+.logo{
+    display: flex;
+    justify-content: end;
+    margin: 15px;
+}
+
+.logo .logo-img{
+    max-width: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.titulo{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+}
+
+.imersao{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+}
+
+.imersao-img{
+    max-width: 300px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+
+.content{
+    border: 0.5px solid rgb(212, 210, 210);
+    border-radius: 5px;
+    height: 700px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin: 0 auto;
+    
+}
+
+.buscador{
+    border: 1px solid rgb(201, 199, 199);
+    border-radius: 10px;
+    background-color: white;
+    width: 300px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-self: center;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.nome .nome1{ /*falando com o span aqui*/
+    font-size: 17px;
+    display: flex;
+    color: lightgray;
+    height: 10px;
+    margin: 8px;
+}
+
+input{
+    width: 300px;
+    height: 85px;
+    font-size: 20px;
+    border: 0 solid white;
+    border-radius: 10px;
+    margin-right: 2px;
+    
+}
+
+
+.buscador:hover{
+    box-shadow: 5px 5px 15px 0;
+}
+
+.resultado{
+    border: 1px solid rgb(201, 199, 199);
+    border-radius: 10px;
+    background-color: white;
+    width: 300px;
+    height: 100px;
+    display: flex;
+    align-self: center;
+    justify-self: center;
+    margin-bottom: 15px;
+		color:black;
+		font-size:25px;
+}
+
+.resultado:hover{
+    box-shadow: 5px 5px 15px 0;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+#bt{
+    width: 150px;
+    height: 50px;
+    background-color: lightgrey;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    }
+
+#bt:hover{
+    box-shadow: 5px 5px 15px 0;
+    background-color: rgb(236, 236, 236);
+}
+
+script{
+    font-size: 25px;
+    display: block;
+    justify-self: center;
+}
+
+footer{
+    display: flex;
+    justify-self: center;
+}
+.footer{
+    border: 0.5px solid white;
+    border-radius: 10px;
+    display: flex;
+    height: 5%;
+    width: 100%;   
+    justify-content: center;
+	 margin-top:10px;
+   
+        
+}
+.footer p{
+    font-size:16px;  
+    text-align:center;
+    padding: 7px;
+      
+}
+
